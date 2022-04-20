@@ -32,10 +32,10 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-source-strapi`,
-      options: strapiConfig,
-    },
+    // {
+    //   resolve: `gatsby-source-strapi`,
+    //   options: strapiConfig,
+    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

@@ -1,16 +1,25 @@
 
 @charset "utf-8";
-$amarillo: #e0ff00;
+$amarillo: #09ff00;
 @import "~bulma/bulma.sass";
 .home{
     background-color:black;
     width:100vw;
     height:100vh;
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
+    gap:1em;
 }
 
 .imghumy{
     width: 30vh;
+}
+
+.loaderContainer{
+    background-color:gray;
+    width:60%;
+    height: 1%;
+    border-radius: 80px;
 }
